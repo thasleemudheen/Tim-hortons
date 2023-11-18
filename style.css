@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+
+.logo{
+    height: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c8102e;
+    
+}
+.logo-rightsection{
+    display: flex;
+    width: auto;
+    color: white;
+    text-align: center;
+    margin-left: 36px;
+    font-size: 18px;
+    
+}
+.logo-rightsection h4{
+    margin: 20px;
+}
+.logo-centersection{
+    width: auto;
+    margin-right: 30px; 
+    height: 60px;
+    width: 185px;
+    background-color:#c8102e;
+}
+.logo-centersection svg{
+ height: 40px;
+ width: 183px;
+ 
+}
+.logo-leftsection{
+    margin-right: 80px;
+     
+}
+.a{
+    height: 40px;
+    width: 70px;
+    background:white; 
+    color: #c8102e; 
+     border: transparent;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    
+    
+}.first-sheet{
+    width: 1518px;
+    height: 480px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
+    padding: 40px;
+    
+}
+.textspace{
+    width: 464px;
+    height: 264px;
+
+}
+    .textspace h1{
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: sofia_pro_bold, Helvetica, Arial, sans-serif;
+}
+.first-sheet button{
+    width: 109px;
+    height: 50px;
+    font-weight: 200px;
+    font-size: 16px;
+    color: white;
+    background-color: #c8102e;
+    border-radius: 60px;
+    border: none;
+}
+.textspace h5{
+    font-size: 18px;
+    font-family: sofia_pro_bold, Helvetica, Arial, sans-serif;
+}    
+   
+.image img{
+    width: 450px;
+    height: 450px;
+    margin-top:-6pc;
+}
+.textspace{
+    margin-right: 50px;
+}
+.image{
+    margin-left: 20px;
+}
+.second-sheet{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.second{
+    background-color: #f9f5ee;
+}
+.second-sheet{
+    display: flex;
+    justify-content: center; 
+   
+     text-align: center;
+}
+.card{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    width: 600px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card button{
+    font-size: 18px;
+    height: 45px;
+     width: 110px; 
+    background-color: #c8102e;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: fit-content;
+    padding: 10px;
+}
+.parabtn p{
+    width: 70%;
+  
+
+}
+.parabtn{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+.just-space{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+}
+.third-sheet{
+    width: 100%;
+    height: 200px;
+}
+.middle-column{
+    width: 75%;
+    height: 180px;
+    background-color:lightgray;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 220px;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.middle-column p{
+    font-size: 18px;
+}
+
+.middle-column p{
+    color: #c8102e;
+}
+#red{
+    color: black;
+}
+.forth-sheet{
+    margin-top: 200px;
+    width: 100%;
+    height: 955px;
+}
+.reward-sheet{
+    display: flex;
+    margin: auto;
+    height: 667px;
+    width: 1200px;
+    background-color:#3f2021;
+    border-radius: 20px;
+
+}
+.phone img{
+    height: 767px;
+    width: 435px;
+   margin-top: -100px;
+    line-height: 24px;
+}
+.right-side-rewardsheet{
+    height: 667px;
+    width: 40%;
+    padding-top: 50px;
+    font-size: 56px;
+    font-family: sofia_pro-bold, Helvetica, Arial, sans-serif;
+    color: white;
+
+    
+}
+.phone{
+    width: 600px;
+}.right-side-rewardsheet p{
+    font-size: 16px;
+
+}.photos {
+    display: flex;
+     /* height:60px ;
+    width: 70px;  */
+    justify-content: space-around;
+    
+}
+.playstore{
+    height: 60px;
+    width:fit-content;
+    padding-left: 10px;
+    margin-right: 40px;
+}
+.photos img{
+    height: 50px;
+    width: fit-content;
+}
+.footer{
+    height: 563px;
+    width: 100%;
+    background-color: white;
+    margin-top: -170px;
+    padding-left: 5%;
+    background-color:lightgrey;
+}
+.footer-row{
+   height: 177px;
+   width: 1375px;
+   
+   display: flex;
+   justify-content: space-between;
+   padding-right: 20%;
+   font-size: 17px;
+   padding-top: 5%;
+   line-height: 24px;
+   
+}
+.footer-two{
+    display: flex;
+    height: 273px;
+    width: 1375px ;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-right: 30%;
+    font-size: 17px;
+    line-height: 24px;
+}
+.footer-three{
+    height: 80px;
+    width: 1375px;
+}
+.colum3 img{
+    height: 15%;
+    width: 130%;
+}
